@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+
+* {
+  margin: auto;
+}
+input {
+  padding: 10px 20px;
+  margin-left: 30px;
+  border-radius: 15px;
+  border: none;
+  
+}
+
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+padding: 20px;
+}
+
+h1, p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.container1 {
+  width: 70%;
+  height: 60vh;
+  background-color: hsl(31, 77%, 52%);
+  margin-top: 30px;
+ 
+}
+
+
+.container1 > h1 {
+  padding: 15px 30px 5px;
+ 
+}
+
+.container1 > p {
+  padding: 30px;
+}
+
+.button1{
+  color: orange;
+}
+.container2 {
+  width: 70%;
+  height: 60vh;
+  background-color:hsl(184, 100%, 22%) ;
+}
+
+.container2 > h1 {
+  padding: 15px 30px 5px;
+}
+.container2 > p {
+   padding: 30px;
+}
+.button2 {
+  color: teal;
+}
+.container3 {
+  width: 70%;
+  height: 60vh;
+  background-color: hsl(179, 100%, 13%);
+  margin-bottom: 40px;
+}
+
+.container3 > h1 {
+   padding: 15px 30px 5px;
+}
+
+.container3 > p {
+  padding: 30px;
+}
+
+.button3 {
+  color: darkslategray;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    max-width: 1440px;
+    
+  }
+  
+  .bigcontainer {
+    display: flex;
+    
+  }
+  
+  .container1 > input {
+    margin-top: 45px;
+  }
+  
+  .container1, .container3 {
+    margin-top: 40px;
+  }
+  .container1, .container2, .container3 {
+    height: 85vh;
+    width:  500px;
+    margin: -1px;
+    padding: 20px;
+    
+  }
+  input {
+    margin: 30px;
+    
+  }
+}
+
+
